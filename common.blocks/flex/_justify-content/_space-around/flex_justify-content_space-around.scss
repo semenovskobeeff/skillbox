@@ -1,7 +1,0 @@
-.flex {
-    &_justify-content {
-        &_space-around {
-            @include justify-content_space-around();
-        }
-    }
-}

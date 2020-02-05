@@ -1,7 +1,0 @@
-.flex {
-    &_flex-wrap {
-        &_nowrap {
-            @include flex-wrap(nowrap);
-        }
-    }
-}

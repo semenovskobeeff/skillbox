@@ -1,7 +1,0 @@
-.flex {
-    &_justify-content {
-        &_space-between {
-            @include justify-content_space-between();
-        }
-    }
-}

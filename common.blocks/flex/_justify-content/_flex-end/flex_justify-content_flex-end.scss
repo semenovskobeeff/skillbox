@@ -1,7 +1,0 @@
-.flex {
-    &_justify-content {
-        &_flex-end {
-            @include justify-content_flex-end();
-        }
-    }
-}

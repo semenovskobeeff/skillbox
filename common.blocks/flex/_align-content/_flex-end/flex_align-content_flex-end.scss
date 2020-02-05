@@ -1,7 +1,0 @@
-.flex {
-    &_align-content {
-        &_flex-end {
-            @include align-content_flex-end();
-        }
-    }
-}

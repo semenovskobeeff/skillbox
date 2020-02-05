@@ -1,0 +1,31 @@
+//*********************************************
+//		Assets
+//*********************************************
+@import "blocks/_base/reset";
+@import "blocks/_base/fonts";
+@import "blocks/_base/variables";
+@import "blocks/_base/flex";
+
+//*********************************************
+//		Blocks
+//*********************************************
+@import "blocks/course-prices/course-prices";
+
+@import "blocks/discount/discount.scss";
+@import "blocks/discount/__procent/discount__procent";
+@import "blocks/discount/__text/discount__text";
+@import "blocks/discount/__text-bold/discount__text-bold";
+
+@import "blocks/full-course-price/full-course-price";
+@import "blocks/full-course-price/__icon/full-course-price__icon";
+@import "blocks/full-course-price/__price/full-course-price__price";
+@import "blocks/full-course-price/__price-icon/full-course-price__price-icon";
+@import "blocks/full-course-price/__text/full-course-price__text";
+
+@import "blocks/h1/h1";
+
+@import "blocks/header/header";
+
+@import "blocks/page/page";
+
+@import "blocks/wrapper/wrapper";

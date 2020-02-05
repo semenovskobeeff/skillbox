@@ -1,7 +1,0 @@
-.flex {
-    &_align-items {
-        &_flex-start {
-            @include align-items_flex-start();
-        }
-    }
-}

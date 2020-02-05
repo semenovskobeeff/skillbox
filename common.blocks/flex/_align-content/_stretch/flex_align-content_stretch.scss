@@ -1,7 +1,0 @@
-.flex {
-    &_align-content {
-        &_stretch {
-            @include align-content_stretch();
-        }
-    }
-}
