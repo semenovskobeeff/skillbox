@@ -1,0 +1,12 @@
+.full-course-price {
+    &__text {
+        font-family: $font1-regular;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.5px;
+        color: rgba(255, 255, 255, 0.4);
+        mix-blend-mode: normal;
+        margin-bottom: 5px;
+    }
+}

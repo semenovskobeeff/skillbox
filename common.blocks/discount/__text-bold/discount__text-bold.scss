@@ -1,0 +1,11 @@
+.discount {
+    &__text-bold {
+        font-family: $font1-bold;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 7px;
+    }
+}

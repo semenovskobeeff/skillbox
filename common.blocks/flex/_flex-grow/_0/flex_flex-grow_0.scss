@@ -1,0 +1,7 @@
+.flex {
+    &_flex-grow {
+        &_0 {
+            @include flex-grow_0();
+        }
+    }
+}

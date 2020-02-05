@@ -1,0 +1,7 @@
+.flex {
+    &_align-items {
+        &_stretch {
+            @include align-items_stretch();
+        }
+    }
+}

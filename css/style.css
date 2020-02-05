@@ -1,0 +1,320 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url("../fonts/roboto/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/roboto/Roboto-Bold.ttf");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Roboto Slab Light';
+  src: url("../fonts/roboto-slab/RobotoSlab-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex_flex-wrap_wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex_flex-wrap_nowrap {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.flex_justify-content_center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.flex_justify-content_flex-end {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.flex_justify-content_flex-start {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.flex_justify-content_space-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.flex_justify-content_space-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.flex_align-content_center {
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.flex_align-content_flex-end {
+  -ms-flex-line-pack: end;
+  align-content: flex-end;
+}
+
+.flex_align-content_flex-start {
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.flex_align-content_space-around {
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+}
+
+.flex_align-content_space-between {
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+}
+
+.flex_align-content_stretch {
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+
+.flex_align-items_center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex_align-items_flex-start {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.flex_align-items_flex-end {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.flex_align-items_stretch {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.flex_flex-direction_column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex_flex-direction_row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.flex_flex-grow_0 {
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.flex_flex-grow_1 {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.flex_flex-shrink_0 {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.flex_flex-shrink_1 {
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+
+.page {
+  font-family: "Roboto Regular", sans-serif;
+}
+
+.header {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 56px 24px 81px;
+}
+
+.wrapper {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.h1 {
+  display: block;
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 38px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+
+.discount {
+  width: 110px;
+  height: 119px;
+  background: #000000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 21px 0 23px;
+}
+
+.discount__text-bold {
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 7px;
+}
+
+.discount__procent {
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  margin-bottom: 6px;
+}
+
+.discount__text {
+  font-family: "Roboto Regular", sans-serif;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.course-prices {
+  background: #3D3BFF;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 89px 24px 41px;
+}
+
+.full-course-price__text {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: rgba(255, 255, 255, 0.4);
+  mix-blend-mode: normal;
+  margin-bottom: 5px;
+}
+
+.full-course-price__price-icon {
+  position: relative;
+}
+.full-course-price__price-icon:before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #8B89FF;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  max-width: 132px;
+}
+
+.full-course-price__price {
+  color: rgba(255, 255, 255, 0.4);
+  margin-right: 9px;
+  font-family: "Roboto Slab Light", sans-serif;
+  font-size: 36px;
+  line-height: 47px;
+  letter-spacing: -2px;
+  color: rgba(255, 255, 255, 0.4);
+  mix-blend-mode: normal;
+}
+
+.full-course-price__icon {
+  width: 19.21px;
+  height: 25px;
+  opacity: 0.4;
+}

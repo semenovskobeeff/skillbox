@@ -1,0 +1,7 @@
+.flex {
+    &_flex-direction {
+        &_column {
+            @include flex-direction_column();
+        }
+    }
+}

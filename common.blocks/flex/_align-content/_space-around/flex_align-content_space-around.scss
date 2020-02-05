@@ -1,0 +1,7 @@
+.flex {
+    &_align-content {
+        &_space-around {
+            @include align-content_space-around();
+        }
+    }
+}

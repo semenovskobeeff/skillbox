@@ -1,0 +1,17 @@
+.full-course-price__price-icon {
+    position: relative;
+
+    &:before {
+        content: '';
+        width: 100%;
+        max-width: 132px;
+        height: 2px;
+        background: #8B89FF;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+}
