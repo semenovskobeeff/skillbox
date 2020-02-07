@@ -1,0 +1,16 @@
+.sign-up__h2 {
+    margin-bottom: 32px;
+    max-width: 200px;
+
+    @media (min-width: 426px) {
+        max-width: inherit;
+    }
+
+    @media (min-width: 500px) {
+        margin-bottom: 45px;
+    }
+
+    @media (min-width: 1170px) {
+        margin-bottom: 32px;
+    }
+}

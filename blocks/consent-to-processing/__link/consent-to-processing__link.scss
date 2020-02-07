@@ -1,0 +1,8 @@
+.consent-to-processing__link {
+    display: inline;
+    color: $color-1;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

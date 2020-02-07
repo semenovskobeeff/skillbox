@@ -1,0 +1,11 @@
+.installments {
+    margin-bottom: 34px;
+
+    @media (min-width: 500px) {
+        margin-bottom: 44px;
+    }
+
+    @media (min-width: 1170px) {
+        margin-bottom: 41px;
+    }
+}

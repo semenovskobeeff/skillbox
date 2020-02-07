@@ -1,0 +1,19 @@
+.price-discount__price {
+    font-family: $font2-light;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    margin-right: 7px;
+
+    @media (min-width: 500px) {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    @media (min-width: 1170px) {
+        margin-right: 10px;
+    }
+}

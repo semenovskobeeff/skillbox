@@ -1,0 +1,12 @@
+.consent-to-processing {
+    margin-bottom: 49px;
+
+    @media (min-width: 500px) {
+        margin-bottom: 28px;
+    }
+
+    @media (min-width: 1170px) {
+        margin: 0;
+        order: 5;
+    }
+}

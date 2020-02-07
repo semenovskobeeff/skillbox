@@ -11,6 +11,7 @@ let paths = {
     public: 'public/'
 };
 
+// sass compile
 gulp.task('sass', function() {
     return gulp.src(paths.blocks + '*.scss')
             .pipe(sass().on('error', sass.logError))
@@ -22,6 +23,14 @@ gulp.task('sass', function() {
             .pipe(gulp.dest(paths.public + 'css/'));
 });
 
+//js compile
+gulp.task('scripts', function() {
+	return gulp.src(paths.blocks + '**/*.js')
+		.pipe(concat('script.js'))
+		.pipe(gulp.dest(paths.public + 'js/'));
+});
+
 gulp.task('watch', function() {
-    gulp.watch(paths.blocks + '*.scss', gulp.series('sass'));
+    gulp.watch(paths.blocks + '**/*.scss', gulp.series('sass'));
+    gulp.watch(paths.blocks + '**/*.js', gulp.series('scripts'));
 });

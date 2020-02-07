@@ -1,4 +1,13 @@
 .header {
     box-sizing: border-box;
-    padding: 56px 24px 81px;
+    padding: 56px 24px 84px;
+
+    @media (min-width: 426px) {
+        padding: 50px 24px 76px;
+    }
+
+    @media (min-width: 1170px) {
+        width: 100%;
+        padding: 64px 24px 62px;
+    }
 }

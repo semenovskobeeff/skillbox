@@ -1,5 +1,15 @@
 .course-prices {
-    background: #3D3BFF;
+    background: $color-1;
     box-sizing: border-box;
-    padding: 89px 24px 41px;
+    padding: 89px 24px 42px;
+    position: relative;
+
+    @media (min-width: 426px) {
+        padding: 133px 24px 75px;
+    }
+
+    @media (min-width: 1170px) {
+        width: 50%;
+        position: relative;
+    }
 }

@@ -1,6 +1,7 @@
 //*********************************************
 //		Assets
 //*********************************************
+
 @import "blocks/_base/reset";
 @import "blocks/_base/fonts";
 @import "blocks/_base/variables";
@@ -9,7 +10,12 @@
 //*********************************************
 //		Blocks
 //*********************************************
+
+@import "blocks/bg/bg";
+
 @import "blocks/course-prices/course-prices";
+@import "blocks/course-prices/__wrap/course-prices__wrap";
+@import "blocks/course-prices/__discount/course-prices__discount";
 
 @import "blocks/discount/discount.scss";
 @import "blocks/discount/__procent/discount__procent";
@@ -29,3 +35,43 @@
 @import "blocks/page/page";
 
 @import "blocks/wrapper/wrapper";
+
+@import "blocks/installments/installments";
+@import "blocks/installments/__price-icon/installments__price-icon";
+@import "blocks/installments/__price/installments__price";
+@import "blocks/installments/__icon/installments__icon";
+@import "blocks/installments/__text/installments__text";
+
+@import "blocks/price-discount/__price-icon/price-discount__price-icon";
+@import "blocks/price-discount/__price/price-discount__price";
+@import "blocks/price-discount/__icon/price-discount__icon";
+@import "blocks/price-discount/__text/price-discount__text";
+
+@import "blocks/h2/h2";
+
+@import "blocks/sign-up/sign-up";
+@import "blocks/sign-up/__h2/sign-up__h2";
+
+@import "blocks/wrap-content/wrap-content";
+
+@import "blocks/advantages/advantages";
+@import "blocks/advantages/__item/advantages__item";
+
+@import "blocks/course-information/course-information";
+@import "blocks/course-information/__text/course-information__text";
+
+@import "blocks/mod-text/_color/mod-text_color";
+@import "blocks/mod-text/_size/mod-text_size";
+
+@import "blocks/button/button";
+
+@import "blocks/form/form";
+@import "blocks/form/__input/form__input";
+@import "blocks/form/__input/_error/form__input_error";
+
+@import "blocks/consent-to-processing/consent-to-processing";
+@import "blocks/consent-to-processing/__label/consent-to-processing__label";
+@import "blocks/consent-to-processing/__link/consent-to-processing__link";
+@import "blocks/consent-to-processing/__checkbox/consent-to-processing__checkbox";
+@import "blocks/consent-to-processing/__checkbox/_checked/consent-to-processing__checkbox_checked";
+@import "blocks/consent-to-processing/__input/consent-to-processing__input";

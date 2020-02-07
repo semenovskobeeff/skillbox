@@ -1,0 +1,24 @@
+.consent-to-processing__checkbox {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #E6E8F0;
+    box-sizing: border-box;
+    padding: 5px 3px;
+    flex: none;
+    margin-right: 19px;
+    fill: rgba(#3d3bff, 0);
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @media (min-width: 500px) {
+        margin-right: 9px;
+        border: 2px solid $color-1;
+    }
+
+    @media (min-width: 1170px) {
+        margin-right: 16px;
+    }
+}

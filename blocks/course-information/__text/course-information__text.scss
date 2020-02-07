@@ -1,0 +1,17 @@
+.course-information__text {
+    font-family: $font1-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    color: #657195;
+    margin-bottom: 14px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    @media (min-width: 426px) {
+        margin-bottom: 0;
+    }
+}

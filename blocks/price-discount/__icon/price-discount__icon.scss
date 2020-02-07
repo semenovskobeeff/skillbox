@@ -1,0 +1,9 @@
+.price-discount__icon {
+    width: 19px;
+    height: 29px;
+
+    @media (min-width: 500px) {
+        width: 23px;
+        height: 34px;
+    }
+}

@@ -1,0 +1,11 @@
+.advantages {
+    margin-bottom: 38px;
+
+    @media (min-width: 500px) {
+        margin-bottom: 61px;
+    }
+
+    @media (min-width: 1170px) {
+        margin-bottom: 52px;
+    }
+}

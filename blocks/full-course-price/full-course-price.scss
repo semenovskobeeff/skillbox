@@ -1,0 +1,11 @@
+.full-course-price {
+    margin-bottom: 21px;
+
+    @media (min-width: 500px) {
+        margin-bottom: 37px;
+    }
+
+    @media (min-width: 1170px) {
+        margin-bottom: 23px;
+    }
+}

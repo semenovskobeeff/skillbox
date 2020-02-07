@@ -1,9 +1,19 @@
 .h1 {
     display: block;
     font-family: $font1-bold;
+    font-weight: 600;
     font-size: 38px;
     line-height: 44px;
     text-align: center;
     letter-spacing: -0.5px;
     color: #000000;
+
+    @media (min-width: 426px) {
+        font-size: 45px;
+        line-height: 53px;
+    }
+
+    @media (min-width: 1170px) {
+        font-size: 55px;
+    }
 }

@@ -1,0 +1,12 @@
+.course-prices__discount {
+    position: absolute;
+    top: -53px;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+
+    @media (min-width: 426px) {
+        top: -20px;
+    }
+}

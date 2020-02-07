@@ -1,0 +1,9 @@
+.consent-to-processing__checkbox_checked {
+    fill: rgba(#3d3bff, 1);
+
+    @media (min-width: 500px) {
+        border: 2px solid $color-1;
+        background-color: $color-1;
+        fill: #fff;
+    }
+}

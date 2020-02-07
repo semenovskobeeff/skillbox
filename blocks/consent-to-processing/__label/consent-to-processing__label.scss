@@ -1,0 +1,14 @@
+.consent-to-processing__label {
+    font-family: $font3-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+    color: #657195;
+    display: block;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,11 @@
+.course-prices__wrap {
+    @media (min-width: 1170px) {
+        position: absolute;
+        top: 12px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        max-height: 332px;
+    }
+}

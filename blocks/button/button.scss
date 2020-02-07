@@ -1,0 +1,27 @@
+.button {
+    background-color: #3D3BFF;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font3-bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 2px solid #3D3BFF;
+    box-sizing: border-box;
+
+    &:hover {
+        background-color: #fff;
+        color: #3D3BFF;
+        cursor: pointer;
+    }
+
+    @media (min-width: 1170px) {
+        margin-bottom: 34px;
+    }
+}

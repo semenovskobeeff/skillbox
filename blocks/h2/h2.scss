@@ -1,0 +1,22 @@
+.h2 {
+    font-family: $font1-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    color: #000000;
+
+    @media (min-width: 426px) {
+        text-align: center;
+    }
+
+    @media (min-width: 500px) {
+        font-size: 38px;
+    }
+
+    @media (min-width: 1170px) {
+        font-size: 34px;
+        text-align: left;
+    }
+}

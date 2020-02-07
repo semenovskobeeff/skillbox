@@ -50,3 +50,9 @@ table {
 a {
     text-decoration: none;
 }
+
+*:focus {
+    outline-style: none;
+    outline-width: 0px !important;
+    outline-color: none !important;
+}
