@@ -12,6 +12,10 @@
     color: #657195;
     margin-bottom: 21px;
 
+    &:focus {
+        border: 2px solid $color-1;
+    }
+
     @media (min-width: 500px) {
         padding: 17px 20px 15px;
 
